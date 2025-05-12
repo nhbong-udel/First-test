@@ -48,4 +48,56 @@
     <li>3</li>
   </ul>
 </p>
+
+<worksheet xml:id="ws-integral1">
+  <title>Integration by parts</title>
+  <exercise workspace="2in">
+   <introduction>
+    <p>
+      Solve the following integrals
+    </p>
+   </introduction>
+   <task workspace="1in">
+    <statement>
+      <p>
+       <me>
+        \int x\ln x dx
+       </me>
+      </p>
+    </statement>
+    <hint>
+      <p>
+        LIATE
+      </p>
+    </hint>
+    <solution>
+      <p>
+        lalala
+      </p>
+    </solution>
+   </task>
+    <task workspace="1in">
+    <statement>
+      <p>
+       <me>
+        \int x^2\ln x dx
+       </me>
+      </p>
+    </statement>
+    <hint>
+      <p>
+        LIATE
+      </p>
+    </hint>
+    <solution>
+      <p>
+        lalala
+      </p>
+    </solution>
+   </task>
+   
+    
+  </exercise>
+  
+</worksheet>
 </section>
