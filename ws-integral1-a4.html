@@ -14,11 +14,12 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Section Title</title>
+<title>Integration by parts</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/theme.css" media="screen" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/print-worksheet.css" media="print" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
@@ -114,7 +115,7 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
-<body id="changeme" class="pretext book ignore-math">
+<body id="changeme" class="pretext book ignore-math standalone worksheet a4">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
 <p class="byline">You</p>
@@ -130,7 +131,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-chapter-title.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-chapter-title.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-section-name.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="sec-section-name.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -145,50 +146,13 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Changing Chapter Title</span></a></div>
 <ul class="structural toc-item-list contains-active"><li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Section Title</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-section-name.html#ws-integral1" class="internal"><span class="codenumber">1.1</span> <span class="title">Integration by parts</span></a></div></li></ul>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-section-name.html#ws-integral1" class="internal"><span class="codenumber">1.1</span> <span class="title">Integration by parts</span></a></div></li></ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-section-name"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Section Title</span>
-</h2>
-<div class="para" id="sec-section-name-2">Text of section.</div>
-<div class="para logical" id="sec-section-name-3">
-<div class="para">This is a paragraph that has emphasized text. <em class="emphasis">Really?</em> I “love” pretext. Sine is written <span class="process-math">\(\sin(x)\text{.}\)</span>
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\sin^2(x)+\cos^2(x)=1\text{.}
-\end{equation*}
-</div>
-</div>
-<article class="definition definition-like" id="def-"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
-</h3>
-<div class="para" id="def--1-1">A graph is bla bla bla</div></article><article class="example example-like" id="sec-section-name-5"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-section-name-5-1">Consider the graph</div></article><article class="remark remark-like" id="sec-section-name-6"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-section-name-6-1">Note that</div></article><div class="para logical" id="sec-section-name-7">
-<div class="para">Here is my list of animals:</div>
-<ol class="decimal" id="sec-section-name-7-1">
-<li id="sec-section-name-7-1-1"><div class="para" id="p-derived-sec-section-name-7-1-1">Shark</div></li>
-<li id="sec-section-name-7-1-2"><div class="para" id="p-derived-sec-section-name-7-1-2">Sloth</div></li>
-<li id="sec-section-name-7-1-3"><div class="para" id="p-derived-sec-section-name-7-1-3">Slork</div></li>
-</ol>
-</div>
-<div class="para logical" id="sec-section-name-8">
-<div class="para">My favorite numbers, in no particular order, happen to be:</div>
-<ul class="disc" id="sec-section-name-8-1">
-<li id="sec-section-name-8-1-1"><div class="para" id="p-derived-sec-section-name-8-1-1">1</div></li>
-<li id="sec-section-name-8-1-2"><div class="para" id="p-derived-sec-section-name-8-1-2">2</div></li>
-<li id="sec-section-name-8-1-3"><div class="para" id="p-derived-sec-section-name-8-1-3">3</div></li>
-</ul>
-</div>
-<section class="worksheet" id="ws-integral1"><h3 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<button class="print-button" title="Print" onClick="window.print()"><span class="name">Print</span></button><section class="worksheet" id="ws-integral1"><h3 class="heading hide-type">
 <span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Integration by parts</span><div class="print-links">
 <a href="ws-integral1-a4.html" class="a4">A4</a><a href="ws-integral1-letter.html" class="us">US</a>
 </div>
@@ -213,9 +177,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="solutions">
 <details id="ws-integral1-2-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="ws-integral1-2-3-2-1">LIATE</div></div></details><details id="ws-integral1-2-3-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="ws-integral1-2-3-3-1">lalala</div></div></details>
 </div>
-<div class="workspace" data-space="1in"></div></article></article></section></section></div>
+<div class="workspace" data-space="1in"></div></article></article></section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-chapter-title.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-section-name.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

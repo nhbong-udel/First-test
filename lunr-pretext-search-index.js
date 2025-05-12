@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Section Title",
-  "body": " Section Title  Text of section.  This is a paragraph that has emphasized text. Really? I love pretext. Sine is written . .    A graph is bla bla bla     Consider the graph    Note that   Here is my list of animals:  Shark  Sloth  Slork    My favorite numbers, in no particular order, happen to be:  1  2  3    "
+  "body": " Section Title  Text of section.  This is a paragraph that has emphasized text. Really? I love pretext. Sine is written . .    A graph is bla bla bla     Consider the graph    Note that   Here is my list of animals:  Shark  Sloth  Slork    My favorite numbers, in no particular order, happen to be:  1  2  3     Integration by parts    Solve the following integrals          LIATE    lalala           LIATE    lalala      "
 },
 {
   "id": "def-",
@@ -44,6 +44,15 @@ var ptx_lunr_docs = [
   "number": "1.1.3",
   "title": "",
   "body": " Note that  "
+},
+{
+  "id": "ws-integral1-2",
+  "level": "2",
+  "url": "sec-section-name.html#ws-integral1-2",
+  "type": "Worksheet Exercise",
+  "number": "1.1.1",
+  "title": "",
+  "body": "  Solve the following integrals          LIATE    lalala           LIATE    lalala    "
 },
 {
   "id": "backmatter-2",
