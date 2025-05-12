@@ -4,5 +4,48 @@
   <title>Section Title</title>
 
   <p> Text of section. </p>
+<p>
+  This is a paragraph that has emphasized text. <em>Really?</em> I <q>love</q> pretext. Sine is written <m>\sin(x)</m>.
 
+  <me>
+    \sin^2(x)+\cos^2(x)=1
+  </me>.
+</p>
+
+<definition xml:id="def-">
+  <statement>
+    <p>
+      A graph is bla bla bla
+    </p>
+  </statement>
+</definition>
+
+<example>
+  <p>
+    Consider the graph
+  </p>
+</example>
+
+<remark>
+  <p>
+    Note that
+  </p>
+</remark>
+
+<p>
+  Here is my list of animals:
+  <ol>
+    <li>Shark</li>
+    <li>Sloth</li>
+    <li>Slork</li>
+  </ol>
+</p>
+<p>
+  My favorite numbers, in no particular order, happen to be:
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</p>
 </section>
