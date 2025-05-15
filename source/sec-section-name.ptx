@@ -143,4 +143,11 @@
 </image>
 </figure>
 <p> lala </p>
+<activity>
+<interactive label="cubicGraph-label" platform="doenetml" width="100%" aspect="2:8">
+  <slate surface="doenetml">
+    <xi:include parse="text" href="doenet/cubicGraph.doenetml"/> 
+  </slate>
+</interactive>
+</activity>
 </section>
