@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Section Title",
-  "body": " Section Title  Text of section.  This is a paragraph that has emphasized text. Really? I love pretext. Sine is written . .    A graph is bla bla bla     Consider the graph    Note that   Here is my list of animals:  Shark  Sloth  Slork    My favorite numbers, in no particular order, happen to be:  1  2  3     Integration by parts    Solve the following integrals          LIATE    lalala           LIATE    lalala      "
+  "body": " Section Title  Text of section.  This is a paragraph that has emphasized text. Really? I love pretext. Sine is written . .    A graph is bla bla bla     Consider the graph    Note that   Here is my list of animals:  Shark  Sloth  Slork    My favorite numbers, in no particular order, happen to be:  1  2  3     Integration by parts    Solve the following integrals          LIATE    lalala           LIATE    lalala         f(x)=2.5-x^2\/2  a = 1       (a,f(a))          graph={1:[3,4,5,5],2:[4,5],3:[4,5],6:[2,4]}             f(x)=2.5-x^2\/2  a = 1       (a,f(a))        lala  "
 },
 {
   "id": "def-",
@@ -53,6 +53,15 @@ var ptx_lunr_docs = [
   "number": "1.1.1",
   "title": "",
   "body": "  Solve the following integrals          LIATE    lalala           LIATE    lalala    "
+},
+{
+  "id": "sec-section-name-12",
+  "level": "2",
+  "url": "sec-section-name.html#sec-section-name-12",
+  "type": "Figure",
+  "number": "1.1.4",
+  "title": "",
+  "body": "    f(x)=2.5-x^2\/2  a = 1       (a,f(a))       "
 },
 {
   "id": "backmatter-2",
