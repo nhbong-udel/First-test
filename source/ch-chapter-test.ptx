@@ -10,7 +10,12 @@
   <!-- include sections -->
   <xi:include href="sec-section-name.ptx" />
 
+ 
   <!-- include sections -->
   <xi:include href="M315Ch1S2.ptx" />
+
+  
+  <!-- include sections -->
+  <xi:include href="sec-try-latex.ptx" />
 
 </chapter>
