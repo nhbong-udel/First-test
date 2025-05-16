@@ -100,6 +100,15 @@ var ptx_lunr_docs = [
   "body": "  Let and be two graphs. If and are isomorphic, then   The graphs and have the same degree sequence.   The graphs and have the same number of triangles.     "
 },
 {
+  "id": "sec-try-latex",
+  "level": "1",
+  "url": "sec-try-latex.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Converting Latex to Pretext",
+  "body": " Converting Latex to Pretext     "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
